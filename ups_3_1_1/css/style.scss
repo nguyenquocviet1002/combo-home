@@ -1,0 +1,36 @@
+.ups_3_1_1{
+    &__inner{
+        display: flex;
+        align-items: center;
+    }
+    &__img{
+        width: 50%;
+        height: 550px;
+        max-height: 550px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        iframe{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    }
+    &__content{
+        flex: 1;
+        padding: 0 50px;
+        &Box{
+            width: fit-content;
+            padding-right: 3vw;
+        }
+    }
+    &__title{
+        font-weight: 600;
+        font-size: 21px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+}

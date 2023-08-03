@@ -1,0 +1,64 @@
+.ups_4_0_0{
+   padding: 30px 0;
+   background-color: #66a1c680;
+   &__title{
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+   &__sub{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   }
+   &__inner{
+    display: flex;
+    margin:  0 -10px;
+   }
+   &__item{
+    display: flex;
+    margin: 10px 0;
+   }
+   &__slogan{
+    flex: 1;
+    p{
+        margin: 0;
+    }
+   }
+   &__icon{
+    width: 40px;
+    &--left{
+        margin-left: 15px;
+    }
+    &--right{
+        margin-right: 15px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+   }
+   &__left, &__right{
+    width: 50%;
+    padding: 0 10px;
+   }
+   &__left{
+    .ups_4_0_0__item{
+        text-align: end;
+    }
+   }
+   &__right{
+    .ups_4_0_0__item{
+        text-align: start;
+    }
+   }
+   &__head{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 5px 0 !important;
+   }
+}

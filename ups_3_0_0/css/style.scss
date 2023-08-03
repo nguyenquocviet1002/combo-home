@@ -1,0 +1,31 @@
+.ups_3_0_0{
+    background-color: #66a1c680;
+    &__inner{
+        display: flex;
+        align-items: center;
+    }
+    &__img{
+        width: 50%;
+        max-height: 800px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    &__content{
+        flex: 1;
+        padding: 0 50px;
+        &Box{
+            width: fit-content;
+            padding-right: 3vw;
+            border-right: 5px dashed #66a1c6;
+        }
+    }
+    &__title{
+        font-weight: 600;
+        font-size: 21px;
+        text-transform: uppercase;
+    }
+}

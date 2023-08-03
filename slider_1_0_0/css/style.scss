@@ -1,0 +1,25 @@
+.slider_1_0_0 {
+  &__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .swiper {
+    height: 600px;
+  }
+  .swiper-pagination-bullet-active {
+    background: #66a1c6;
+  }
+  @media (max-width: 1024px) {
+    .swiper {
+      height: 400px;
+    }
+  }
+}
