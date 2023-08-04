@@ -5,12 +5,17 @@
     }
     &__img{
         width: 50%;
-        max-height: 550px;
+        position: relative;
+        padding-bottom: calc(56.25% * 0.5);
+        height: 0;
         overflow: hidden;
         img{
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: auto;
-            display: block;
+            height: 100%;
+            object-fit: cover;
         }
     }
     &__content{
