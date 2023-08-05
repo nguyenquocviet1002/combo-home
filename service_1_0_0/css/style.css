@@ -45,4 +45,23 @@
   cursor: pointer;
   padding: 5px;
   margin-top: 10px;
+}
+@media (max-width: 1024px) {
+  .service_1_0_0__item {
+    height: 360px;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  .service_1_0_0__bold {
+    font-size: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .service_1_0_0__inner {
+    flex-direction: column;
+  }
+  .service_1_0_0__item {
+    width: 100%;
+    margin: 10px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
