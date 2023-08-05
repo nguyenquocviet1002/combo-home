@@ -9,12 +9,14 @@
   height: 0;
   overflow: hidden;
 }
-.ups_3_1_1__img iframe {
+.ups_3_1_1__img img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .ups_3_1_1__content {
   flex: 1;
@@ -41,7 +43,7 @@
 }
 @media (max-width: 768px) {
   .ups_3_1_1__inner {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .ups_3_1_1__img {
     width: 100%;
