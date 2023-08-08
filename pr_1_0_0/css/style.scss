@@ -6,13 +6,13 @@
         margin: 0 -10px;
     }
     &__item{
-        width: calc(33.3% - 20px);
+        width: 33.3%;
         padding: 0 10px;
         margin-bottom: 20px;
     }
     &__thumb{
-        height: 260px;
         overflow: hidden;
+        max-height: 250px;
         img{
             width: 100%;
             height: auto;
@@ -27,5 +27,31 @@
         margin-top: 5px;
         font-size: 18px;
         font-weight: 600;
+    }
+    @media (max-width: 1400px){
+        &__thumb{
+            max-height: 220px;
+        }
+        &__title{
+            font-size: 16px;
+        }
+    }
+    @media (max-width: 1200px){
+        &__thumb{
+            max-height: 180px;
+        }
+    }
+    @media (max-width: 1024px){
+        &__item{
+            width: 50%;
+            padding: 0 10px;
+            margin-bottom: 20px;
+        }
+        &__thumb{
+            max-height: 210px;
+        }
+        &__title{
+            font-size: 15px;
+        }
     }
 }
