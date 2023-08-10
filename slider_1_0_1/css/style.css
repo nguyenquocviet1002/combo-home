@@ -1,0 +1,32 @@
+.slider_1_0_1 {
+  padding: 30px;
+}
+.slider_1_0_1__title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.slider_1_0_1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.slider_1_0_1 .swiper-partner {
+  overflow: hidden;
+}
+.slider_1_0_1__item {
+  background-color: rgba(102, 161, 198, 0.5019607843);
+  display: block;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+@media (max-width: 1024px) {
+  .slider_1_0_1__item {
+    padding: 3px 7px;
+  }
+}
+@media (max-width: 768px) {
+  .slider_1_0_1__title {
+    font-size: 21px;
+  }
+}/*# sourceMappingURL=style.css.map */
