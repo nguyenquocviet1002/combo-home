@@ -1,5 +1,7 @@
 .banner_1_0_0 {
-  background: url("../images/bg2.jpg") no-repeat center;
+  background-image: url("../images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: 1920px;
   min-height: 330px;
   text-align: center;
@@ -9,4 +11,32 @@
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+}
+.banner_1_0_0 h1, .banner_1_0_0 h2, .banner_1_0_0 h3 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: 400;
+}
+.banner_1_0_0__inner {
+  width: 60%;
+  margin: auto;
+}
+@media (max-width: 1024px) {
+  .banner_1_0_0 {
+    background-size: 1024px;
+    font-size: 26px;
+  }
+  .banner_1_0_0 h1, .banner_1_0_0 h2, .banner_1_0_0 h3 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 768px) {
+  .banner_1_0_0 {
+    background-size: 768px;
+    font-size: 23px;
+    min-height: 260px;
+  }
+  .banner_1_0_0 h1, .banner_1_0_0 h2, .banner_1_0_0 h3 {
+    font-size: 23px;
+  }
 }/*# sourceMappingURL=style.css.map */
